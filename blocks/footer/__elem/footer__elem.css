@@ -1,0 +1,13 @@
+.footer__elem {
+  margin: 0 18px 0 0;
+}
+
+.footer__elem:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 760px) {
+  .footer__elem {
+  margin: 0 0 32px 0;
+  }
+}
