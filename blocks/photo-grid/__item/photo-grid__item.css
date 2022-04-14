@@ -2,7 +2,13 @@
   width: 100%;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 600px) {
+  .photo-grid__item {
+    width: calc(100% - 160px);
+  }
+}
+
+@media screen and (max-width: 520px) {
   .photo-grid__item {
     width: 288px;
   }
